@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-Creator: 汪春旺
+Creator: WangChunwang
 Date: 2026/05/26
 Description: 采用纯原生Python代码，不借助任何第三方依赖，实现国密SM4、SM3、SM2算法。
     对外方法均采用类方法调用模式：
