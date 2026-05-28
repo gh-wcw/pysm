@@ -1,8 +1,8 @@
 ## 采用纯原生Python代码，不借助任何第三方依赖，实现国密SM4、SM3、SM2算法。
 ### 对外方法均采用类方法调用模式：
 #### SM4加密：
-> 类方法调用：SM4.encrypt(key, plaintext, key_type)
-> 参数说明：key 秘钥，plaintext 待加密原文，key_type 密钥类型(HEXSTR-十六进制字符，HEXBYTE-十六进制字节)
+> 类方法调用：SM4.encrypt(key, plaintext, key_type)  
+> 参数说明：key 秘钥，plaintext 待加密原文，key_type 密钥类型(HEXSTR-十六进制字符，HEXBYTE-十六进制字节)  
 > 返回：十六进制字符串
 #### SM4解密：
 > 类方法调用：SM4.decrypt(key, ciphertext, key_type)
